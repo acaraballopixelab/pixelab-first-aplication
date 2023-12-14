@@ -42,4 +42,8 @@ export class CarsService {
 
     return this.cars
   }
+
+  fellCarsWithSeedData(cars: Car[]){
+    this.cars = cars
+  }
 }
